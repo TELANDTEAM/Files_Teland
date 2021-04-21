@@ -591,5 +591,5 @@ end
 
 end
 return {
-Teland = games
+Peland = games
 }
