@@ -1,4 +1,4 @@
-local function games(msg)
+local function all(msg)
 local text = msg.content_.text_
 if text == "@all" and CoSu(msg) then
 if not database:get(bot_id..'Cick:all'..msg.chat_id_) then
@@ -25,7 +25,7 @@ tagname = tagname:gsub("[[]","")
 t = t..", ["..tagname.."](tg://user?id="..v.user_id_..")"
 if x == 5 or x == tags or k == 0 then
 local Text = t:gsub('#all,','#all\n')
-sendText(msg.chat_id_,Text,0,'md')
+send(msg.chat_id_, 0,Text)
 end
 end,nil)
 end
@@ -54,5 +54,5 @@ end
 
 end
 return {
-Poyka = games
+Poyka = all
 }
