@@ -548,5 +548,5 @@ end
 
 end
 return {
-Peland = Reply
+Poyka = Reply
 }
