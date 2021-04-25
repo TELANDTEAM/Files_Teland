@@ -54,5 +54,5 @@ end
 
 end
 return {
-Poyka = all
+Peland = all
 }
