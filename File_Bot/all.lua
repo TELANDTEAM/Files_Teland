@@ -25,7 +25,8 @@ tagname = tagname:gsub("[[]","")
 t = t..", ["..tagname.."](tg://user?id="..v.user_id_..")"
 if x == 5 or x == tags or k == 0 then
 local Text = t:gsub('#all,','#all\n')
-send(msg.chat_id_, 0,Text)
+---send(msg.chat_id_, 0,Text)
+sendText(msg.chat_id_,Text,msg.id_/2097152/0.5,'md')
 end
 end,nil)
 end
