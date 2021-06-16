@@ -23,7 +23,7 @@ elseif markdown == 'html' then
 end 
 return s_api(url)  
 end
-if text == "@all" and CoSu(msg) then
+if text == "@all" and BasicConstructor(msg) then
 if not database:get(bot_id..'Cick:all'..msg.chat_id_) then
 if database:get(bot_id.."VVVZVV:all:Time"..msg.chat_id_..':'..msg.sender_user_id_) then  
 return 
@@ -56,7 +56,7 @@ end,nil)
 end,nil)
 end
 end
-if text == 'تفعيل all' and CoSu(msg) then   
+if text == 'تفعيل all' and BasicConstructor(msg) then   
 if database:get(bot_id..'Cick:all'..msg.chat_id_) then
 Text = ' *⌯︙تم تفعيل امر @all*'
 database:del(bot_id..'Cick:all'..msg.chat_id_)  
@@ -65,7 +65,7 @@ Text = ' *⌯︙بالتاكيد تم تفعيل امر @all*'
 end
 send(msg.chat_id_, msg.id_,Text) 
 end
-if text == 'تعطيل all' and CoSu(msg) then  
+if text == 'تعطيل all' and BasicConstructor(msg) then  
 if not database:get(bot_id..'Cick:all'..msg.chat_id_) then
 database:set(bot_id..'Cick:all'..msg.chat_id_,true)  
 Text = '\n *⌯︙تم تعطيل امر @all*'
