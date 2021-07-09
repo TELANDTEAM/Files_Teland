@@ -16,7 +16,6 @@ if not Mod(msg) then
 send(msg.chat_id_, msg.id_,'*✹~⪼ هاذا الامر خاص بالادمنيه*\n*✹~⪼ ارسل {م10} لعرض اوامر الاعضاء*')
 return false
 end
-print(AddChannel(msg.sender_user_id_))
 local help_text = database:get(bot_id..'help1_text')
 Text = [[
 *✹~⪼ اوامر الحمايه اتبع مايلي ...*
@@ -62,7 +61,6 @@ if not Mod(msg) then
 send(msg.chat_id_, msg.id_,'*✹~⪼ هاذا الامر خاص بالادمنيه*\n*✹~⪼ ارسل {م10} لعرض اوامر الاعضاء*')
 return false
 end
-print(AddChannel(msg.sender_user_id_))
 local help_text = database:get(bot_id..'help2_text')
 Text = [[
 *✹~⪼ اهلا بك عزيزي …*
@@ -145,7 +143,6 @@ if not Mod(msg) then
 send(msg.chat_id_, msg.id_,'*✹~⪼ هاذا الامر خاص بالادمنيه*\n*✹~⪼ ارسل {م10} لعرض اوامر الاعضاء*')
 return false
 end
-print(AddChannel(msg.sender_user_id_))
 local help_text = database:get(bot_id..'help4_text')
 Text = [[
 *✹~⪼ اهلا بك عزيزي …*
@@ -229,7 +226,6 @@ if not Mod(msg) then
 send(msg.chat_id_, msg.id_,'*✹~⪼ هاذا الامر خاص بالادمنيه*\n*✹~⪼ ارسل {م10} لعرض اوامر الاعضاء*')
 return false
 end
-print(AddChannel(msg.sender_user_id_))
 local help_text = database:get(bot_id..'help6_text')
 Text = [[
 *✹~⪼ اهلا بك عزيزي …*
@@ -293,7 +289,6 @@ if not Mod(msg) then
 send(msg.chat_id_, msg.id_,'*✹~⪼ هاذا الامر خاص بالادمنيه*\n*✹~⪼ ارسل {م10} لعرض اوامر الاعضاء*')
 return false
 end
-print(AddChannel(msg.sender_user_id_))
 local help_text = database:get(bot_id..'help7_text')
 Text = [[
 *✹~⪼ الاوامر التحشيش …*
