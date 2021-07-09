@@ -1,15 +1,6 @@
 local function games(msg)
 local text = msg.content_.text_
 if text == 'الالعاب' and database:get(bot_id..'Lock:Games'..msg.chat_id_) then
-if AddChannel(msg.sender_user_id_) == false then
-local textchuser = database:get(bot_id..'text:ch:user')
-if textchuser then
-send(msg.chat_id_, msg.id_,'['..textchuser..']')
-else
-send(msg.chat_id_, msg.id_,'  *⌯︙عذࢪا عليڪ الاشتࢪاڪ في قناه البوت* \n*⌯︙اشتࢪڪ هنا عمࢪي* ['..database:get(bot_id..'add:ch:username')..']')
-end
-return false
-end
 Text_Games = [[
 *✹~⪼اوامر الالعاب كتالي* 
 *ٴ•━━━━━━ 𝗧𝗘 ━━━━━━━•*
