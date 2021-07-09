@@ -82,7 +82,7 @@ send(msg.chat_id_, msg.id_,'['..TextReply..']')
 return false
 end
 if text == 'باي' then
-TextReply = 'ويـن دايـح عمࢪيي خـلـينـا مـونـسـيـن🥺💘'
+TextReply = 'ويـن رايـح عمࢪيي خـلـينـا مـونـسـيـن🥺💘'
 send(msg.chat_id_, msg.id_,'['..TextReply..']')
 return false
 end
@@ -268,6 +268,11 @@ return false
 end
 if text == 'امير دليم' then
 TextReply = 'هـاذ مـطـوࢪ سـوࢪسـات💘✨'
+send(msg.chat_id_, msg.id_,'['..TextReply..']')
+return false
+end
+if text == '@vvvzvv' then
+TextReply = 'هاذ مـطـوࢪ الـسوࢪس عمࢪيي'
 send(msg.chat_id_, msg.id_,'['..TextReply..']')
 return false
 end
