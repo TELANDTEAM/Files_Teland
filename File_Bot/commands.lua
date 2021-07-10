@@ -183,7 +183,6 @@ if not Mod(msg) then
 send(msg.chat_id_, msg.id_,'*✹~⪼ هاذا الامر خاص بالادمنيه*\n*✹~⪼ ارسل {م10} لعرض اوامر الاعضاء*')
 return false
 end
-print(AddChannel(msg.sender_user_id_))
 local help_text = database:get(bot_id..'help5_text')
 Text = [[
 *✹~⪼ اهلا بك عزيزي …*
